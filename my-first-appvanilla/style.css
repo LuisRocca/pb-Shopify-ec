@@ -107,7 +107,7 @@ body .page-content .product-cards {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  margin-top: 40px;
+  margin-top: 80px;
 }
 
 body .page-content .product-cards .contenedor-cart {
@@ -253,7 +253,7 @@ body ul.slider li:target {
 body .menu-slider {
   text-align: center;
   position: absolute;
-  bottom: 420px;
+  bottom: 80px;
 }
 
 body .menu-slider li {
