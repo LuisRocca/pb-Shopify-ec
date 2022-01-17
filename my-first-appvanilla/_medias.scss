@@ -63,8 +63,30 @@
       }
     }
 }
+.menu-slider{
+  
+  bottom: 220px;
+
+}
   }
   
 @media(max-width: 575px) {
+  body {
+    font-size: 15px;
+    header {
+      .menu{
+          nav {
+          margin: 20px 577px 0 0;
+          ul li {
+           margin-left: 40px;
+          }
+       }
+     }
+   }
+  }
+  .menu-slider{
+    bottom: 100px;
+  
+  }
   }
 
