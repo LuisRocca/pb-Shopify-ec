@@ -6,7 +6,7 @@ ajax()
 document.querySelector('#btn').addEventListener('click', () => {
 
   const http = new XMLHttpRequest();
-  const url = `http://localhost:3001/products`;
+  const url = `https://new-app-microcomerce.herokuapp.com/products`;
   http.onreadystatechange = function(){
     if (this.readyState == 4 && this.status == 200 ) { 
       const response = JSON.parse(this.responseText) 
